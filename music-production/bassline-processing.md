@@ -26,7 +26,7 @@ Use Ableton's built-in **Compressor** (or **Glue Compressor**) on the bass track
 
 Selecting a track in the dropdown without turning **`External`** on does nothing. Both steps are required.
 
-The **headphones icon** between the External and EQ sections auditions the sidechain trigger only; useful while dialing in settings.
+6. Optional check: click the **headphones icon** (Sidechain Listen) between the External and EQ sections. You should **only hear the kick** (whatever you picked as External Source)—not the bass, not the full mix. Silence between hits is normal. If you hear the whole drum bus, pick a more isolated kick source. Turn headphones **off** again before tuning Threshold and watching Gain Reduction with kick + bass playing.
 
 ### Starting settings (house-style ducking)
 
@@ -36,7 +36,7 @@ The **headphones icon** between the External and EQ sections auditions the sidec
 | **Ratio** | **4:1** to **8:1** | Strong enough to clear space without sounding broken |
 | **Attack** | **0.01 ms** (fast) | Bass drops right as the kick lands |
 | **Release** | **80–200 ms** | Match your groove; shorter = tighter pump, longer = smoother tail |
-| **Knee** | **Soft** | Often smoother on bass |
+| **Knee** | **0 dB** to start | Ableton shows knee in **dB**, not “Soft/Hard”: **0 dB** = hard (compression kicks in sharply at the threshold); **higher dB** = softer (compression ramps in gradually below the threshold). For kick-triggered ducking, **0 dB** is a common starting point; try **6–12 dB** if the duck feels too abrupt |
 | **Dry/Wet** | **100%** to start | Pull down toward **50–70%** if it feels too aggressive |
 
 ### Tuning it
